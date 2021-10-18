@@ -1,0 +1,76 @@
+if(level==3||level==4) {
+		srand(time(NULL));
+		for(size; size>0; size--) {
+			int type=rand()%4;
+			if(type==0) {
+				int a=rand();
+				int b=rand();
+				int result;
+				result=a+b;
+				cout<<a;
+				cout<<"+";
+				cout<<b;
+				cout<<"=";
+				int student;
+				cin>>student;
+				if(student==result) {
+					source=source+source1;
+					i++;
+				}
+			}
+			if(type==1) {
+				int a=rand();
+				int b=rand();
+				int result;
+				result=a-b;
+				cout<<a;
+				cout<<"-";
+				cout<<b;
+				cout<<"=";
+				int student;
+				cin>>student;
+				if(student==result) {
+					source=source+source1;
+					i++;
+				}
+			}
+			if(type==2) {
+				int a=rand();
+				int b=rand();
+				int result;
+				result=a*b;
+				cout<<a;
+				cout<<"*";
+				cout<<b;
+				cout<<"=";
+				int student;
+				cin>>student;
+				if(student==result) {
+					source=source+source1;
+					i++;
+				}
+			}
+			if(type==3) {
+				int a=rand()%100;
+				int b=rand()%100;
+				int result;
+				result=a/b;
+				cout<<a;
+				cout<<"÷";
+				cout<<b;
+				cout<<"=";
+				int student;
+				cin>>student;
+				if(student==result) {
+					source=source+source1;
+					i++;
+				}
+			}
+		}
+		cout<<"end! ";
+		if(i==total) {
+			cout<<"100";
+		} else {
+			cout<<source;
+		}
+	}
