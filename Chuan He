@@ -1,0 +1,26 @@
+#include <time.h>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+	int level;
+	int i;
+	int size;
+	cin >> level;
+	cin >> size;
+	int total=size;
+	srand(time(NULL));
+	int source=0;
+	int source1;
+	source1=100/size;
+
+cout<<"end! ";
+		if(i==total) {
+			cout<<"100";
+		} else {
+			cout<<source;
+		}
+	}
